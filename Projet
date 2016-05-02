@@ -25,6 +25,12 @@ def genre():
     drame = ["Fight Club", "Titanic", "Mommy", "Into the Wild", "La Ligne Verte", "Forrest Gump"]
     historique = ["Twelve Years A Slave", "Le Pianiste", "Le Labyrinthe du silence", "Le discours d'un roi", "Troie", "Invictus"]
     
+def duree():
+
+    creneau3 = ["Mad Max:Fury Road", "Le Labyrinthe du silence", "N'oublie Jamais", "Le Voyage de Chihiro", "PS I Love You", "Orgueil et Préjugés", "Kingsman" ,"Twelve Years A Slave", "Mommy", "Le Secret de Brokeback Moutain", "La Mélodie Du Bonheur", "Good Morning England", "2001:L'Odyssée de l'espace", "Forrest Gump", "Marley", "Le Pianiste", "Into the Wild", "Inception"]
+    creneau4 = ["West Side Story", "Les Misérables ", "Le Bon, la Brute et le Truand","Troie", "Django Unchained" ,"Avatar", "Il était une fois dans l'Ouest"]
+    creneau5 = ["Il était une fois dans l'Ouest", "Human", "Titanic", "La Ligne Verte"]
+    
 #demande à l'utilisateur
 
 #fonction principale
