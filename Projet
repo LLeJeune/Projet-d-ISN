@@ -35,10 +35,13 @@ def duree():
     
 #demande à l'utilisateur
 
+def choix_film ():
+
+
 #fonction principale
 def main():
     
-    ouverture_fichier()
+    choix_film ()
     
 main()
 
