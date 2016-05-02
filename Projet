@@ -12,6 +12,15 @@ def ouverture_fichier() :
 
 #importer les films
 
+def genre():
+    
+    action =["Mad Max:Fury Road", "Deadpool", "Kill Bill : Volume 1", "Kingsman", "Taken", "Le Transporteur"]
+    science_fiction =["Retour Vers Le Futur", "2001:L'Odyssée de l'espace", "Inception", "Avatar", "Terminator", "District 9"]
+    comedie =["Good Morning England", "Les Tontons Flingueurs", "Les Visiteurs", "Astérix et Obélix : Mission Cléopâtre", "Babysitting 2", "Very Bab Trip"]
+    western =["Django Unchained", "Il était une fois dans l'Ouest", "Le Bon, la Brute et le Truand", "Diablo", "Vera Cruz", "Mon nom est Personne"]
+    dessin_anime =["Ratatouille", "Le Voyage de Chihiro", "Les Nouveaux Héros", "Cendrillon", "WALL-E", "Le Tombeau Des Lucioles"]
+    documentaire =["Sugar Man", "Human", "We Feed The World", "Marley", "Demain", "Oceans"]
+    
 #demande à l'utilisateur
 
 #fonction principale
