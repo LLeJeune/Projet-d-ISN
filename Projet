@@ -27,6 +27,8 @@ def genre():
     
 def duree():
 
+    creneau1 = ["Cendrillon", "Invictus", "Le Tombeau Des Lucioles", "Fight Club", "Diablo"]
+    creneau2 = ["Diablo", "Le Transporteur", "Taken", "Babysitting 2", "Vera Cruz", "We Feed The World", "WALL-E", "Very Bab Trip", "Les Nouveaux Héros", "Oceans", "Les Tontons Flingueurs", "L'arnacoeur", "Terminator", "Les Visiteurs", "Astérix et Obélix : Mission Cléopâtre", "Deadpool", "Mamma Mia", "Grease", "Kill Bill : Volume 1", "Ratatouille", "Sugar Man", "District 9", "La Boum", "Hairspray", "Retour Vers Le Futur", "Mon nom est Personne", "Demain", "Le discours d'un roi", "Mad Max:Fury Road", "Le Labyrinthe du silence"]
     creneau3 = ["Mad Max:Fury Road", "Le Labyrinthe du silence", "N'oublie Jamais", "Le Voyage de Chihiro", "PS I Love You", "Orgueil et Préjugés", "Kingsman" ,"Twelve Years A Slave", "Mommy", "Le Secret de Brokeback Moutain", "La Mélodie Du Bonheur", "Good Morning England", "2001:L'Odyssée de l'espace", "Forrest Gump", "Marley", "Le Pianiste", "Into the Wild", "Inception"]
     creneau4 = ["West Side Story", "Les Misérables ", "Le Bon, la Brute et le Truand","Troie", "Django Unchained" ,"Avatar", "Il était une fois dans l'Ouest"]
     creneau5 = ["Il était une fois dans l'Ouest", "Human", "Titanic", "La Ligne Verte"]
