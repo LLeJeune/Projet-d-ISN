@@ -20,6 +20,10 @@ def genre():
     western =["Django Unchained", "Il était une fois dans l'Ouest", "Le Bon, la Brute et le Truand", "Diablo", "Vera Cruz", "Mon nom est Personne"]
     dessin_anime =["Ratatouille", "Le Voyage de Chihiro", "Les Nouveaux Héros", "Cendrillon", "WALL-E", "Le Tombeau Des Lucioles"]
     documentaire =["Sugar Man", "Human", "We Feed The World", "Marley", "Demain", "Oceans"]
+    comédie_musicale = ["La Mélodie Du Bonheur", "Grease", "Mamma Mia", "West Side Story", "Les Misérables", "Hairspray"]
+    romance = ["N'oublie Jamais", "L'arnacoeur", "Le Secret de Brokeback Moutain", "Orgueil et Préjugés", "PS I Love You", "La Boum"]
+    drame = ["Fight Club", "Titanic", "Mommy", "Into the Wild", "La Ligne Verte", "Forrest Gump"]
+    historique = ["Twelve Years A Slave", "Le Pianiste", "Le Labyrinthe du silence", "Le discours d'un roi", "Troie", "Invictus"]
     
 #demande à l'utilisateur
 
