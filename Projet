@@ -1,7 +1,24 @@
 #début du code
 
+#importer le fichier
+
+def ouverture_fichier() :
+    
+    fichier = open ("sans nom2.csv", 'r')
+    lignes = fichier.readlines()
+    for ligne in lignes :
+        print (ligne)
+
+
 #importer les films
 
 #demande à l'utilisateur
+
+#fonction principale
+def main():
+    
+    ouverture_fichier()
+    
+main()
 
 
