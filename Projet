@@ -33,7 +33,7 @@ def duree():
     creneau4 = ["West Side Story", "Les Misérables ", "Le Bon, la Brute et le Truand","Troie", "Django Unchained" ,"Avatar", "Il était une fois dans l'Ouest"]
     creneau5 = ["Il était une fois dans l'Ouest", "Human", "Titanic", "La Ligne Verte"]
     
-#importer film2
+#importer les films2
 
 def base_donnees():
     
