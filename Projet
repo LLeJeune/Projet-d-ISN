@@ -4,7 +4,7 @@
 
 def ouverture_fichier() :
     
-    fichier = open ("sans nom2.csv", 'r')
+    fichier = open ("Projet.csv", 'r')
     lignes = fichier.readlines()
     for ligne in lignes :
         print (ligne)
