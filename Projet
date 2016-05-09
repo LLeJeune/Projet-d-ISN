@@ -2,12 +2,16 @@
 
 #importer le fichier
 
-def ouverture_fichier() :
+def ouverture_fichier(entete) :
     
     fichier = open ("Projet.csv", 'r')
     lignes = fichier.readlines()
-    for ligne in lignes :
-        print (ligne)
+    #for ligne in lignes :
+    #   print (ligne)
+    if entete :
+        return lignes[1:]
+    else :
+        return lignes
 
 
 #importer les films1
@@ -35,14 +39,14 @@ def duree():
     
 #importer les films2
 
-def base_donnees():
+def base_donnees(liste):
     
     choix = []
     for ligne in fichier:
         liste_choix = ligne.split(",")
         liste_choix[2] = int(liste_choix)
         choix.append(liste_choix)
-        
+    return choix
 
 #demande à l'utilisateur
 
@@ -53,8 +57,8 @@ def choix_film ():
 def main():
     
     choix_film ()
-    ouverture_fichier  ()
-    base_donnees ()
+    contenu_fichier = ouverture_fichier  (True)
+    base = base_donnees (contenu_fichier)
     
 main()
 
