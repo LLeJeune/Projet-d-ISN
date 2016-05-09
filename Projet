@@ -57,7 +57,7 @@ def choix_film ():
 def main():
     
     choix_film ()
-    contenu_fichier = ouverture_fichier  (True)
+    contenu_fichier = ouverture_fichier(True)
     base = base_donnees (contenu_fichier)
     
 main()
