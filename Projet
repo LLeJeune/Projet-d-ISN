@@ -6,8 +6,6 @@ def ouverture_fichier(entete) :
     
     fichier = open ("Projet.csv", 'r')
     lignes = fichier.readlines()
-    #for ligne in lignes :
-    #   print (ligne)
     if entete :
         return lignes[1:]
     else :
