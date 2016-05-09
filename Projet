@@ -10,7 +10,7 @@ def ouverture_fichier() :
         print (ligne)
 
 
-#importer les films
+#importer les films1
 
 def genre():
     
@@ -33,6 +33,17 @@ def duree():
     creneau4 = ["West Side Story", "Les Misérables ", "Le Bon, la Brute et le Truand","Troie", "Django Unchained" ,"Avatar", "Il était une fois dans l'Ouest"]
     creneau5 = ["Il était une fois dans l'Ouest", "Human", "Titanic", "La Ligne Verte"]
     
+#importer film2
+
+def base_donnees():
+    
+    choix = []
+    for ligne in fichier:
+        liste_choix = ligne.split(",")
+        liste_choix[2] = int(liste_choix)
+        choix.append(liste_choix)
+        
+
 #demande à l'utilisateur
 
 def choix_film ():
@@ -42,6 +53,8 @@ def choix_film ():
 def main():
     
     choix_film ()
+    ouverture_fichier  ()
+    base_donnees ()
     
 main()
 
