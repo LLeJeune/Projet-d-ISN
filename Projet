@@ -1,5 +1,3 @@
-#début du code
-
 #importer le fichier
 
 def ouverture_fichier(entete) :
@@ -12,7 +10,7 @@ def ouverture_fichier(entete) :
         return lignes
 
 
-#importer les films1
+#première manière d'importer les films
 
 def genre():
     
@@ -35,7 +33,7 @@ def duree():
     creneau4 = ["West Side Story", "Les Misérables ", "Le Bon, la Brute et le Truand","Troie", "Django Unchained" ,"Avatar", "Il était une fois dans l'Ouest"]
     creneau5 = ["Il était une fois dans l'Ouest", "Human", "Titanic", "La Ligne Verte"]
     
-#importer les films2
+#deuxième manière d'importer les films
 
 def base_donnees(liste):
     
