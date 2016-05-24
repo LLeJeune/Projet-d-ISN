@@ -48,6 +48,154 @@ def base_donnees(liste):
 
 def choix_film ():
 
+#L'untilisateur choisi le genre de son film 
+
+choi_genre = ['Action', 'Science-fiction', 'Comédie', 'Western', 'Dessin animé', 'Documentaire', 'Histoirique', 'Drame', 'Romance', 'Comédie musical']
+genre0 = "Action"
+genre1 = "Science-fiction"
+genre2 = "Comédie"
+genre3 = "Western"
+genre4 = "Dessin animé"
+genre5 = "Documentaire"
+genre6 = "Histoirique"
+genre7 = "Drame"
+genre8 = "Romance"
+genre9 = "Comédie musical"
+print( genre0, genre1 ,genre2 ,genre3 ,genre4 , genre5, genre6, genre7, genre8, genre9)
+choix_genre = str(input("Ecrivez comme ci-dessus le genre de film que vous voulez :"))
+
+# L'utilisateur choisi la durée de son film 
+
+choi_duree = ['1h-1h30', '1h30-2h' ,'2h-2h30' ,'2h30-3h' ,'+ de 3h']
+duree0 = ("1h-1h30")
+duree1 = ("1h30-2h")
+duree2 = ("2h-2h30")
+duree3 = ("2h30-3h")
+duree4 = ("+ de 3h")
+print(duree0, duree1, duree2, duree3, duree4)
+choix_duree = str(input("Choisssisez la durée du votre film parmis nos propositions :"))
+
+#Recherche du film et genre correspondant aux critères de l'utilisateur
+
+if choi_genre == 'Action':
+    
+    if choi_duree == '1h-1h30'
+    
+    elif choi_duree == '1h30-2h'
+    
+    elif choi_duree == '2h-2h30'
+    
+    elif choi_duree == '2h30-3h'
+
+    elif choi_duree == '+ de 3h'
+
+elif choi_genre == 'Science-fiction' :
+
+    if choi_duree == '1h-1h30'
+    
+    elif choi_duree == '1h30-2h'
+    
+    elif choi_duree == '2h-2h30'
+    
+    elif choi_duree == '2h30-3h'
+
+    elif choi_duree == '+ de 3h'
+        
+elif choi_genre == 'Comédie' :
+        
+        if choi_duree == '1h-1h30'
+    
+        elif choi_duree == '1h30-2h'
+    
+        elif choi_duree == '2h-2h30'
+    
+        elif choi_duree == '2h30-3h'
+
+        elif choi_duree == '+ de 3h'
+   
+elif choi_genre == 'Dessin Animée' :
+        
+        if choi_duree == '1h-1h30'
+    
+        elif choi_duree == '1h30-2h'
+    
+        elif choi_duree == '2h-2h30'
+    
+        elif choi_duree == '2h30-3h'
+    
+        elif choi_duree == '+ de 3h'
+
+elif choi_genre == 'Wesstern' :
+        
+        if choi_duree == '1h-1h30'
+    
+        elif choi_duree == '1h30-2h'
+    
+        elif choi_duree == '2h-2h30'
+    
+        elif choi_duree == '2h30-3h'
+
+        elif choi_duree == '+ de 3h'
+    
+elif  choi_genre == 'Documentaire' :
+        
+        if choi_duree == '1h-1h30'
+    
+        elif choi_duree == '1h30-2h'
+    
+        elif choi_duree == '2h-2h30'
+    
+        elif choi_duree == '2h30-3h'
+
+        elif choi_duree == '+ de 3h'
+
+elif choi_genre == 'Historique' :
+        
+        if choi_duree == '1h-1h30'
+    
+        elif choi_duree == '1h30-2h'
+    
+        elif choi_duree == '2h-2h30'
+    
+        elif choi_duree == '2h30-3h'
+
+        elif choi_duree == '+ de 3h'
+    
+elif choi_genre == 'Drame' :
+        
+        if choi_duree == '1h-1h30'
+    
+        elif choi_duree == '1h30-2h'
+    
+        elif choi_duree == '2h-2h30'
+    
+        elif choi_duree == '2h30-3h'
+
+        elif choi_duree == '+ de 3h'
+    
+elif choi_genre == 'Romance' :
+        
+        if choi_duree == '1h-1h30'
+    
+        elif choi_duree == '1h30-2h'
+    
+        elif choi_duree == '2h-2h30'
+    
+        elif choi_duree == '2h30-3h'
+
+        elif choi_duree == '+ de 3h'
+    
+elif choi_genre == 'Comédie Musical' :
+        
+        if choi_duree == '1h-1h30'
+    
+        elif choi_duree == '1h30-2h'
+    
+        elif choi_duree == '2h-2h30'
+    
+        elif choi_duree == '2h30-3h'
+
+        elif choi_duree == '+ de 3h'
 
 #fonction principale
 
