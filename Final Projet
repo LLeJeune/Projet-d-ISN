@@ -1,0 +1,250 @@
+#Affectation à une variable d'un genre de film
+
+genre0 = "Action"
+genre1 = "Science-fiction"
+genre2 = "Comédie"
+genre3 = "Western"
+genre4 = "Dessin animé"
+genre5 = "Documentaire"
+genre6 = "Histoirique"
+genre7 = "Drame"
+genre8 = "Romance"
+genre9 = "Comédie musical"
+
+#Affectation à une variable d'un intervalle de durée
+
+duree0 = ("1h-1h30")
+duree1 = ("1h30-2h")
+duree2 = ("2h-2h30")
+duree3 = ("2h30-3h")
+duree4 = ("+ de 3h")
+
+#Demande à l'utilisateur ses critères      
+
+print("Voici les différentes durées de films proposés comme est écrit ci-dessus :",duree0,"ou", duree1,"ou", duree2,"ou", duree3,"ou", duree4)   #Affichage des différentes durées
+choix_duree = str(input("Choisssisez la durée du votre film parmis nos propositions :"))
+
+print("Voici les différents genres de films proposés comme est écrit ci-dessus :", genre0,"ou", genre1 ,"ou",genre2 ,"ou",genre3 ,"ou",genre4 ,"ou", genre5,"ou", genre6,"ou", genre7,"ou", genre8,"ou", genre9) #Affichage des différents genres
+choix_genre = str(input("Ecrivez comme ci-dessus le genre de film que vous voulez :"))
+
+#Recherche du film et genre correspondant aux critères de l'utilisateur
+
+if (choix_genre == 'Action'):
+    
+    if (choix_duree == '1h-1h30'):
+    
+        print("Aucun film ne correspond à vos critères")
+    
+    elif (choix_duree == '1h30-2h') :
+    
+        print("Les films correspondants à vos critères sont : Taken ou Le transporteur ")    
+    
+    elif (choix_duree == '2h-2h30') :
+    
+        print("Les films correspondants à vos critères sont : Deadpool ou Kill Bill Volume 1 ou Mad Max Fury Road") 
+    
+    elif (choix_duree == '2h30-3h'):
+
+        print("Les films correspondants à vos critères sont : Kingsman ou Mad Max Fury Road") 
+
+    elif (choix_duree == '+ de 3h'):
+
+        print("Aucun films ne correspond à vos critères")
+
+elif (choix_genre == 'Science-fiction') :
+
+    if (choix_duree == '1h-1h30'):
+    
+        print("Aucun films ne correspond à vos critères")
+    
+    elif (choix_duree == '1h30-2h'):
+    
+        print("Les films correspondants à vos critères sont : Terminator ou Distric 9 ou Retour Vers Le Futur 1 ") 
+        
+    elif (choix_duree == '2h-2h30'):
+        
+        print("Les films correspondants à vos critères sont : Inception ou 2001:L'Odyssée De L'Espace ") 
+    
+    elif (choix_duree == '2h30-3h'):
+        
+        print("Les films correspondants à vos critères sont : Avatar") 
+
+    elif (choix_duree == '+ de 3h'):
+        
+        print("Aucun films ne correspond à vos critères")
+        
+elif (choix_genre == 'Comédie' ):
+        
+        if (choix_duree == '1h-1h30'):
+            
+            print("Aucun films ne correspond à vos critères")
+    
+        elif (choix_duree == '1h30-2h'):
+            
+            print("Les films correspondants à vos critères sont : Very Bad Trip ou Babysitting 2 ou Astérix et Obélix :Mission Cléopâtre ou Les Visiteurs ou Les Tontons Flingueurs") 
+    
+        elif (choix_duree == '2h-2h30'):
+
+            print("Les films correspondants à vos critères sont : Good Morning England")
+    
+        elif (choix_duree == '2h30-3h'):
+
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '+ de 3h'):
+
+            print("Aucun films ne correspond à vos critères")
+            
+elif (choix_genre == 'Dessin Animée' ):
+        
+        if (choix_duree == '1h-1h30'):
+            
+            print("Les films correspondants à vos critères sont : Cendrillon ou Le tombeau des lucioles")
+                
+        elif (choix_duree == '1h30-2h'):
+            
+            print("Les films correspondants à vos critères sont : WALL-E ou Les nouveaux héros ou Ratatouille")
+            
+        elif (choix_duree == '2h-2h30'):
+    
+            print("Les films correspondants à vos critères sont : Le Voyage de Chihiro")
+            
+        elif (choix_duree == '2h30-3h'):
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '+ de 3h'):
+
+            print("Aucun films ne correspond à vos critères")
+            
+elif (choix_genre == 'Wesstern') :
+        
+        if (choix_duree == '1h-1h30'):
+    
+            print("Les films correspondants à vos critères sont : Diablo")
+            
+        elif (choix_duree == '1h30-2h'):
+            
+            print("Les films correspondants à vos critères sont : Diablo ou Vera Cruz ou Mon nom est Personne")
+            
+        elif (choix_duree == '2h-2h30'):
+
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '2h30-3h'):
+
+            print("Les films correspondants à vos critères sont : Le Bon,La Brute Et Le Truand ou Django Unchained ou Il étais une fois dans l'Ouest") 
+            
+        elif (choix_duree == '+ de 3h'):
+
+            print("Aucun films ne correspond à vos critères")
+            
+elif  (choix_genre == 'Documentaire'):
+        
+        if (choix_duree == '1h-1h30'):
+    
+            print("Les films correspondants à vos critères sont : Sugar Man")
+            
+        elif (choix_duree == '1h30-2h'):
+
+            print("Les films correspondants à vos critères sont : We Feed The World ou Demain ou Oceans")
+            
+        elif (choix_duree == '2h-2h30'):
+
+                print("Les films correspondants à vos critères sont : Marley")
+                
+        elif (choix_duree == '2h30-3h'):
+        
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '+ de 3h'):
+        
+            print("Les films correspondants à vos critères sont : Human")
+            
+elif (choix_genre == 'Historique' ):
+        
+        if (choix_duree == '1h-1h30'):
+    
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '1h30-2h'):
+    
+           print("Les films correspondants à vos critères sont : Le Labyrinthe du silence ou Le discours d'un roi")
+           
+        elif (choix_duree == '2h-2h30'):
+            
+            print("Les films correspondants à vos critères sont : Le Labyrinthe du silence ou Twelve years a slave ou Invictus ou Le Pianiste")
+            
+        elif (choix_duree == '2h30-3h'):
+
+            print("Les films correspondants à vos critères sont : Troie")
+             
+        elif (choix_duree == '+ de 3h'):
+    
+            print("Aucun films ne correspond à vos critères")
+            
+elif (choix_genre == 'Drame' ):
+        
+        if (choix_duree == '1h-1h30'):
+            
+            print("Aucun films ne correspond à vos critères")
+                
+        elif (choix_duree == '1h30-2h'):
+
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '2h-2h30'):
+    
+            print("Les films correspondants à vos critères sont : Fight CLub ou Into the Wild ou Mommy")
+            
+        elif (choix_duree == '2h30-3h'):
+
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '+ de 3h'):
+    
+            print("Les films correspondants à vos critères sont : Titanic ou La ligne verte")
+            
+            
+elif (choix_genre == 'Romance' ):
+        
+        if (choix_duree == '1h-1h30'):
+    
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '1h30-2h'):
+    
+            print("Les films correspondants à vos critères sont : L'Arnacoeur")
+            
+        elif (choix_duree == '2h-2h30'):
+    
+            print("Les films correspondants à vos critères sont : N'oublie jamais ou Orgueil et prejugés ou PS I love you ou Forrest Gump ou Le Secret de Brokback Moutain")
+            
+        elif (choix_duree == '2h30-3h'):
+
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '+ de 3h'):
+    
+            print("Aucun films ne correspond à vos critères")
+            
+elif (choix_genre == 'Comédie Musical' ):
+        
+        if (choix_duree == '1h-1h30'):
+    
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '1h30-2h'):
+    
+            print("Les films correspondants à vos critères sont : La Boum ou Grease ou Mamma Mia ou Hairspray")
+            
+        elif (choix_duree == '2h-2h30'):
+
+            print("Aucun films ne correspond à vos critères")
+            
+        elif (choix_duree == '2h30-3h'):
+
+            print("Les films correspondants à vos critères sont : Les Misérables ou West Side Story ou La Mélodie du Bonheur")
+            
+        elif (choix_duree == '+ de 3h'):
+            
+            print("Aucun films ne correspond à vos critères")
